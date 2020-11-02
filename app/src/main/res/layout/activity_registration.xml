@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background_design">
+
+
+    <EditText
+        android:id="@+id/registration_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email.."
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/inputs"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="10dp"/>
+
+    <EditText
+        android:id="@+id/registration_Pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Pass.."
+        android:layout_margin="10dp"
+        android:textColor="#fff"
+        android:inputType="textPassword"
+        android:textColorHint="#fff"
+        android:background="@drawable/inputs"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="10dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/registration_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/registration_Page_Question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already Register? Login"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
